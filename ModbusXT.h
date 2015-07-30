@@ -9,9 +9,7 @@ if you have any question, please feel free to email me at mr.caddish@gmail.com
 #ifndef MODBUSXT_H_
 #define MODBUSXT_H_
 
-
 #include <Arduino.h>
-
 
 #define BUFFER_SIZE 64
 
@@ -282,5 +280,5 @@ class  Modbus {
         uint16_t _total_fail;   //Total failed packets
 };
 
-#endif  //end if define
+#endif  //end Header file
 
