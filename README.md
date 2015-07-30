@@ -1,19 +1,10 @@
-Author: caddish12
+Arduino Modbus RTU Master
 
-ModbusXT changes:
-- v1: work with polling
-- v2: change Modbus class to individual - Modbus hmi;
-+ change Modbus::Modbus to void Modbus::begin(port,baud,config,timeout,poling,tx)
-+ add packetPointer to access individual packet
-+ add process_F1_F2
-- v3: add packetError & packetSuccess
-+ Add timeout
-+ add polling time: work with 5ms
-- v4:
-+ example: multiple packets
-- v5:
-+ complete example with polling and rtos
-+ Almost complete library
+This library is used to make arduino can communicate with other Modbus RTU devices.
 
-Readme:
-- With Arduino DUE, Serial0 will present an error
+This version is currently only support Modbus master. I will work with modbus slave later.
+
+Notice:
+- This library works Arduino AVR and Arduino ARM
+- 2 examles: Modbus Polling & Modubs RTOS
+- With Arduino DUE, Serial0 will present an error, I will fix it later
