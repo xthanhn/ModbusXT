@@ -1,6 +1,6 @@
-Arduino Modbus RTU Master
+Arduino Modbus RTU Master 
 
-This library is used to make arduino can communicate with other Modbus RTU devices.
+This library is used to make arduino can communicate with other Modbus RTU devices based on SimpleModbus library by Mr. Juan.
 
 This version is currently only support Modbus master. I will work with modbus slave later.
 
