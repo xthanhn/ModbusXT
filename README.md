@@ -8,3 +8,6 @@ Notice:
 - This library works Arduino AVR and Arduino ARM
 - 2 examles: Modbus Polling & Modubs RTOS
 - With Arduino DUE, Serial0 will present an error, I will fix it later
+
+Youtube video: 
+https://youtu.be/bfZh8oy-SXs
